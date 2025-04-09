@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Headset/Support Icon -->
+  <circle cx="50" cy="50" r="45" fill="white"/>
+  <path d="M30 50 V38 Q30 25 50 25 Q70 25 70 38 V50 M30 50 Q20 50 20 60 V65 Q20 75 30 75 V50 M70 50 Q80 50 80 60 V65 Q80 75 70 75 V50" stroke="#0A3677" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 65 H40 Q50 65 50 55" stroke="#0A3677" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

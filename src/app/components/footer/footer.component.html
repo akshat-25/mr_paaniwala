@@ -1,0 +1,15 @@
+<footer class="bg-light text-dark pt-5 pb-3">
+    <div class="d-flex justify-content-center gap-2 mb-3">
+      <a *ngFor="let item of socialMediaItems"
+         [href]="item.link"
+         class="btn btn-outline-dark btn-social rounded-circle d-flex align-items-center justify-content-center"
+         style="width: 36px; height: 36px;">
+        <i class="{{ item.class }}"></i>
+      </a>
+    </div>
+  
+    <div class="text-center border-top pt-3 mt-3">
+      <small>&copy; {{ currentYear }} Mr. Paaniwala. All rights reserved.</small>
+    </div>
+  </footer>
+  

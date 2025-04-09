@@ -1,0 +1,46 @@
+.hero-section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #0c2d63;
+    margin-bottom: 2rem;
+  }
+
+  .custom-btn {
+    border-radius: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .btn-outline-light.text-dark:hover {
+    background-color: #0c2d63; 
+    color: white !important;
+    border-color: #0c2d63;
+  }
+
+  .btn-outline-light-prm.text-dark{
+    background-color: #0c2d63; 
+    color: white !important;
+    border-color: #0c2d63;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 400px;
+    }
+    
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  }
+

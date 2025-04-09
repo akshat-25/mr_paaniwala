@@ -1,0 +1,81 @@
+/* contact-us.component.css */
+.contact-banner {
+    background-image: linear-gradient(rgba(0, 78, 146, 0.7), rgba(0, 78, 146, 0.7)), url('/assets/images/water_bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .contact-info-card, .hours-card {
+    background-color: #ffffff;
+    border-left: 4px solid #0e4b70;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .hours-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item i, .hours-item i {
+    color: #0e4b70;
+  }
+  
+  .btn-primary {
+    background-color: #0e4b70;
+    border-color: #0e4b70;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0e4b70;
+    border-color: #0e4b70;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-success {
+    background-color: #25D366;
+    border-color: #25D366;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #20bd5a;
+    border-color: #20bd5a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Custom water-like floating animation for cards */
+  .contact-info-card:hover, .hours-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-container {
+    position: relative;
+    overflow: hidden;
+    border: 4px solid #0e4b70;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contact-banner {
+      padding: 60px 0;
+    }
+    
+    .quick-action .btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .quick-action .btn:last-child {
+      margin-left: 0 !important;
+    }
+  }

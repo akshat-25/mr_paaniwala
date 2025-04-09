@@ -1,0 +1,17 @@
+<section id="solutions" class="solutions-section section-padding">
+    <div class="container">
+      <h2 class="section-title mb-5">{{ solutionsTitle }}</h2>
+      
+      <div class="row">
+        <div class="col-md-6 mb-4" *ngFor="let solution of solutions">
+          <div class="solution-card">
+            <div class="d-flex align-items-center">
+              <img src="assets/images/{{ solution.icon }}" alt="{{ solution.title }} icon" class="solution-icon me-3">
+              <h3 class="solution-title mb-0">{{ solution.title }}</h3>
+            </div>
+            <p class="solution-description mt-3">{{ solution.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

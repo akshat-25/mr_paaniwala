@@ -1,0 +1,14 @@
+<section class="features-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-6 mb-4 mb-md-0" *ngFor="let feature of features">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <img src="assets/images/{{feature.icon}}" alt="{{ feature.title }} icon">
+            </div>
+            <h3 class="feature-title text-white">{{ feature.title }}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

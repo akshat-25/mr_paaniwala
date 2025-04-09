@@ -1,1 +1,110 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global Styles */
+:root {
+    --primary-color: #0e4b70;
+    --secondary-color: #1a73b7;
+    --light-blue: #e8f4fc;
+    --white: #ffffff;
+    --dark: #333333;
+    --grey: #f5f5f5;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark);
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-weight: 600;
+    
+    &:hover, &:focus {
+      background-color: darken(#0e4b70, 10%);
+      border-color: darken(#0e4b70, 10%);
+    }
+  }
+  
+  .btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-weight: 600;
+    
+    &:hover, &:focus {
+      background-color: var(--primary-color);
+      color: var(--white);
+    }
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .section-padding {
+    padding: 5rem 0;
+  }
+  
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  
+  .feature-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .feature-text {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .solution-card {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    height: 100%;
+    background-color: var(--white);
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+    
+    .solution-icon {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 1rem;
+    }
+    
+    .solution-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .solution-description {
+      font-size: 0.9rem;
+      color: #666;
+    }
+  }

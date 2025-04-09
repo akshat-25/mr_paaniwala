@@ -1,0 +1,26 @@
+<section id="about" class="about-section section-padding">
+    <div class="container text-center">
+        <h2 class="section-title">{{ aboutTitle }}</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <p class="mission-statement">{{ aboutMission }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-4 d-flex flex-column align-items-center px-4 border-end border-md-0"
+                *ngFor="let mission of missions; let i = index" [ngClass]="{ 
+        'border-end': i !== missions.length - 1,
+        'border-start': i !== 0
+      }">
+                <img src="assets/images/{{mission.icon}}" alt="{{mission.title}}" class="mb-3 mx-auto d-block"
+                    width="40">
+                <h5 class="mission-title text-center">{{mission.title}}</h5>
+                <p class="mission-description text-center">
+                    {{mission.description}}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
