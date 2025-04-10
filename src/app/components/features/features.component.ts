@@ -16,19 +16,19 @@ export class FeaturesComponent {
       description: 'Quality water purifiers at budget-friendly prices'
     },
     {
-      icon: 'icon-support.svg',
-      title: '24/7 Customer Support',
+      icon: 'icon-delivery.svg',
+      title: 'All India Delivery',
       description: 'Always available to help with your water needs'
+    },
+    {
+      icon: 'icon-iso.svg',
+      title: 'An ISO 9001:2015 Certified',
+      description: 'Working for better water access for all'
     },
     {
       icon: 'icon-pricing.svg',
       title: 'Transparent Pricing',
       description: 'No hidden costs, fair and clear pricing'
     },
-    {
-      icon: 'icon-community.svg',
-      title: 'Community Driven',
-      description: 'Working for better water access for all'
-    }
   ];
 }

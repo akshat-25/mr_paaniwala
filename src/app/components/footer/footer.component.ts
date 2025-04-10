@@ -14,6 +14,6 @@ export class FooterComponent {
   socialMediaItems = [
     { name: 'Facebook', link: '#about', class: 'bi bi-facebook' },
     { name: 'Twitter', link: '#solutions', class: 'bi bi-twitter-x' },
-    { name: 'Instagram', link: '#impact', class: 'bi bi-instagram'  },
+    { name: 'Instagram', link: 'https://www.instagram.com/mr.paaniwala?igsh=YmVjbGF2YmFqNmVh', class: 'bi bi-instagram'  },
   ]
 }

@@ -11,4 +11,6 @@ import { RouterModule } from '@angular/router';
 })
 export class HeroComponent {
   heroTitle = 'Your Trusted Water Partner';
+
+  phone = '+91 8217420436';
 }
