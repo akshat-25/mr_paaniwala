@@ -10,10 +10,11 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   contactInfo = {
-    address: '123 Water Street, Mumbai, Maharashtra 400001, India',
-    phone: '+91 98765 43210',
-    whatsapp: '+91 98765 43210',
-    email: 'info@mrpaaniwala.com'
+    address: '1/33 80 feet road, 6th Main Rd, KHB Colony, Basaveshwar Nagar, Karnataka 560079',
+    phone: '+91 9638612110',
+    whatsapp: '+91 9638612110',
+    email: 'info@mrpaaniwala.com', 
+    whatsapplink: '919638612110'
   };
 
 

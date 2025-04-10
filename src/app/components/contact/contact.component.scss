@@ -1,4 +1,6 @@
 /* contact-us.component.css */
+
+
 .contact-banner {
     background-image: linear-gradient(rgba(0, 78, 146, 0.7), rgba(0, 78, 146, 0.7)), url('/assets/images/water_bg.png');
     background-size: cover;
@@ -8,7 +10,7 @@
   }
   
   .contact-info-card, .hours-card {
-    background-color: #ffffff;
+    background-color: var(--light-blue);
     border-left: 4px solid #0e4b70;
     height: 100%;
     transition: all 0.3s ease;
