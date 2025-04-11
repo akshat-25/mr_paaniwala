@@ -66,7 +66,7 @@ export class ProductDetailsComponent implements OnInit {
       {
         id: 5,
         name: 'Luxury Model - Black',
-        description: 'High-resolution digital SLR camera with versatile lens.',
+        description: 'Advanced RO Filtration – Delivers clean, safe, and great-tasting water, Copper Luxe Finish – Adds a touch of sophistication to your kitchen, Smart LED Indicators – Easy monitoring of power, purification, and tank status, Wall-Mountable Design – Sleek and space-efficient for modern interiors, Luxury Edition Craftsmanship – Built for durability and elegance',
         price: 449.99,
         imageUrl: 'luxury-model-black.JPG',
         additionalImages: [
@@ -77,7 +77,7 @@ export class ProductDetailsComponent implements OnInit {
       {
         id: 6,
         name: 'Luxury Model - White',
-        description: 'Wearable fitness tracker with heart rate monitor',
+        description: 'High-Efficiency RO Filtration – Removes impurities, bacteria, and harmful substances, Elegant White Finish – Minimalist design that suits all interiors, Smart LED Display – Quick status check for purification, power, and tank fill, Wall-Mount Friendly – Sleek and space-saving for convenience, Built to Last – Quality materials with a stylish Luxury Edition badge',
         price: 93.99,
         imageUrl: 'luxury-model-white.JPG',
         additionalImages: [

@@ -50,14 +50,14 @@ export class ProductsComponent {
     {
       id: 5,
       name: 'Luxury Model - Black',
-      description: 'High-resolution digital SLR camera with versatile lens.',
+      description: 'It stands out with its bold black and copper finish—a true blend of modern elegance and performance',
       price: 449.99,
       imageUrl: 'luxury-model-black.JPG'
     },
     {
       id: 6,
       name: 'Luxury Model - White',
-      description: 'Wearable fitness tracker with heart rate monitor',
+      description: 'White Edition brings together premium water purification and a timeless, clean aesthetic.',
       price: 93.99,
       imageUrl: 'luxury-model-white.JPG'
     }
@@ -66,7 +66,5 @@ export class ProductsComponent {
   viewProductDetails(productId: number): void {
     this.router.navigate(['/products', productId]);
   }
-
-
 
 }
