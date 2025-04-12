@@ -12,8 +12,7 @@ export class FooterComponent {
 
   currentYear: number = new Date().getFullYear();
   socialMediaItems = [
-    { name: 'Facebook', link: '#about', class: 'bi bi-facebook' },
-    { name: 'Twitter', link: '#solutions', class: 'bi bi-twitter-x' },
+    { name: 'Facebook', link: 'https://www.facebook.com/profile.php?id=61568966167219', class: 'bi bi-facebook' },
     { name: 'Instagram', link: 'https://www.instagram.com/mr.paaniwala?igsh=YmVjbGF2YmFqNmVh', class: 'bi bi-instagram'  },
   ]
 }
